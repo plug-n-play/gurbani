@@ -1,28 +1,38 @@
 import React, { useEffect, useState } from 'react'
-import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
-import shabadsList from '../utils/list'
 
 const Home = () => {
+  const [shabad, setShabad] = useState({});
+
+  useEffect(() => {
+    async function getShabadsList() {
+      const res = await fetch('/api/40232');
+      const _shabad = await res.json();
+      setShabad(_shabad);
+    }
+    getShabadsList();
+  }, []);
+
   return (
     <div>
       <Head title="Home" />
       <Nav />
 
       <div className="hero">
-        {
-          shabadsList.map( (shabad) => (
-            <div className='row'>
-              <Link href='/shabad'>
-                <a className='card'>
-                  <h3>{shabad.title.unicode}</h3>
-                  <p>{shabad.title.transliteration}</p>
+        <div className='row'>
+          <h3>{shabad && shabad.title ? shabad.title.unicode : ''}</h3>
+          <p>{shabad && shabad.title ? shabad.title.transliteration : ''}</p>
+
+            {shabad && shabad.keertans ?
+              shabad.keertans.map( keertan => (
+                <a className='card' href={keertan} target="_blank">
+                  {keertan}
                 </a>
-              </Link>
-            </div>
-          ))
-        }
+              ))
+              : ''
+            }
+        </div>
       </div>
 
       <style jsx>{`
@@ -80,7 +90,6 @@ const Home = () => {
         }
         .card {
           padding: 18px 18px 24px;
-          width: 220px;
           text-align: left;
           text-decoration: none;
           color: #434343;
