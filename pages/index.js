@@ -12,14 +12,24 @@ const Home = () => {
 
       <div className="hero">
         {
-          shabadsList.map( (shabad) => (
-            <div className='row'>
-              <Link href='/shabad'>
-                <a className='card'>
-                  <h3>{shabad.title.unicode}</h3>
-                  <p>{shabad.title.transliteration}</p>
-                </a>
-              </Link>
+          shabadsList.map( (shabad, key) => (
+            <div className='row' key={key}>
+              <a className='card' href={shabad.completeShabadURL} target="_blank">
+                <h3>{shabad.title.unicode}</h3>
+                <p>{shabad.title.transliteration}</p>
+              </a>
+              <div className="shabad-link-wrapper">
+                {
+                  shabad.keertans.map( (keertan, key) => (
+                    <div key={key}>
+                      <a className="keertan-link"  href={keertan.url} target="_blank">
+                        {keertan.name} - {keertan.duration}
+                      </a>
+                      <br />
+                    </div>
+                  ))
+                }
+              </div>
             </div>
           ))
         }
@@ -78,13 +88,15 @@ const Home = () => {
           background-size: 200% 200%;
           animation: Loading 2s ease infinite;
         }
-        .card {
+        .card, .shabad-link-wrapper {
           padding: 18px 18px 24px;
-          width: 220px;
           text-align: left;
           text-decoration: none;
           color: #434343;
           border: 1px solid #9b9b9b;
+          width: 450px;
+          text-align: center;
+          margin-right: 20px;
         }
         .card:hover {
           border-color: #067df7;
@@ -99,6 +111,19 @@ const Home = () => {
           padding: 12px 0 0;
           font-size: 13px;
           color: #333;
+        }
+        .shabad-link-wrapper {
+
+        }
+        .shabad-link {
+          text-decoration: underline;
+          color: #067df7;
+          font-weight: bold;
+          width: 550px;
+        }
+        .keertan-link{
+          margin-bottom: 5px;
+          display: inline-block;
         }
       `}</style>
     </div>
