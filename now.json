@@ -1,16 +1,7 @@
 {
   "version": 2,
   "alias": [
-    "www.kirtan.khalsa.tech",
-    "www.keertan.khalsa.tech",
-    "keertan.khalsa.tech",
-    "gurbani.khalsa.tech",
-    "keertan.now.sh",
-    "www.keertan.now.sh",
-    "kirtan.now.sh",
-    "www.kirtan.now.sh",
-    "gurbani.now.sh",
-    "www.gurbani.now.sh"
+    "www.kirtan.khalsa.tech"
   ],
   "routes": [
     {
