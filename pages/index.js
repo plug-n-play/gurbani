@@ -13,22 +13,26 @@ const Home = () => {
       <div className="hero">
         {
           shabadsList.map( (shabad, key) => (
-            <div className='row' key={key}>
-              <a className='card' href={shabad.completeShabadURL} target="_blank">
-                <h3>{shabad.title.unicode}</h3>
-                <p>{shabad.title.transliteration}</p>
-              </a>
-              <div className="shabad-link-wrapper">
-                {
-                  shabad.keertans.map( (keertan, key) => (
-                    <div key={key}>
-                      <a className="keertan-link"  href={keertan.url} target="_blank">
-                        {keertan.name} - {keertan.duration}
-                      </a>
-                      <br />
-                    </div>
-                  ))
-                }
+            <div className="shabad-wrapper" key={key}>
+              <div className='row'>
+                <a className='card' href={shabad.completeShabadURL} target="_blank">
+                  <h3>{shabad.title.unicode}</h3>
+                  <p className="transliteration">{shabad.title.transliteration}</p>
+                </a>
+              </div>
+              <div className='row'>
+                <div className="shabad-link-wrapper">
+                  {
+                    shabad.keertans.map( (keertan, key) => (
+                      <div key={key}>
+                        <a className="keertan-link"  href={keertan.url} target="_blank">
+                          {keertan.name} - {keertan.duration}
+                        </a>
+                        <br />
+                      </div>
+                    ))
+                  }
+                </div>
               </div>
             </div>
           ))
@@ -53,7 +57,7 @@ const Home = () => {
         }
         .row {
           max-width: 880px;
-          margin: 80px auto 40px;
+          margin: 0 auto;
           display: flex;
           flex-direction: row;
           justify-content: space-around;
@@ -89,14 +93,11 @@ const Home = () => {
           animation: Loading 2s ease infinite;
         }
         .card, .shabad-link-wrapper {
-          padding: 18px 18px 24px;
           text-align: left;
           text-decoration: none;
           color: #434343;
-          border: 1px solid #9b9b9b;
-          width: 450px;
           text-align: center;
-          margin-right: 20px;
+          margin: 20px;
         }
         .card:hover {
           border-color: #067df7;
@@ -112,8 +113,11 @@ const Home = () => {
           font-size: 13px;
           color: #333;
         }
-        .shabad-link-wrapper {
-
+        .shabad-wrapper {
+          border-bottom: 1px solid #9b9b9b;
+          max-width: 800px;
+          margin: 0 auto;
+          width: 90%;
         }
         .shabad-link {
           text-decoration: underline;
@@ -124,6 +128,9 @@ const Home = () => {
         .keertan-link{
           margin-bottom: 5px;
           display: inline-block;
+        }
+        .transliteration {
+          text-decoration: underline;
         }
       `}</style>
     </div>

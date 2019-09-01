@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Nav = () => (
+const Nav = (props) => (
   <nav>
     <ul>
       <li>
         <Link href='/'>
-          <a>Home</a>
+          <a>{props.name}</a>
         </Link>
       </li>
     </ul>
