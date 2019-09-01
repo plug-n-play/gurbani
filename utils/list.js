@@ -37,7 +37,7 @@ module.exports = [
   {
     "id": 1575,
     "title": {
-      "unicode": "ਸੋ ਸਤਿਗੁਰੁ ਪਿਆਰਾ ਮੇਰੈ ਨਾਲਿ ਹੈ",
+      "unicode": "ਸਤਿਗੁਰ ਬਚਨ ਤੁਮ੍ਹਾਰੇ",
       "transliteration": "so satigur piaaraa merai naal hai"
     },
     "keertans": [
