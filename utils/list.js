@@ -33,5 +33,20 @@ module.exports = [
       }
     ],
     "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=2218&q=So%20Satgur%20Pyara%20Merai%20Naal%20Hai&type=4&source=all&highlight=25641"
+  },
+  {
+    "id": 1575,
+    "title": {
+      "unicode": "ਸੋ ਸਤਿਗੁਰੁ ਪਿਆਰਾ ਮੇਰੈ ਨਾਲਿ ਹੈ",
+      "transliteration": "so satigur piaaraa merai naal hai"
+    },
+    "keertans": [
+      {
+        "name": "Bhai Ravinder Singh Ji (Hazoori Ragi Sri Darbar Sahib-Amritsar)",
+        "url": "https://www.youtube.com/watch?v=VT_PmxrH2eo",
+        "duration": "09:48"
+      }
+    ],
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=1575"
   }
 ]
