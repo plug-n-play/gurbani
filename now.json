@@ -1,4 +1,15 @@
 {
   "version": 2,
+  "alias": [
+    "www.kirtan.khalsa.tech",
+    "www.keertan.khalsa.tech",
+    "keertan.khalsa.tech",
+    "www.gurbani.khalsa.tech",
+    "gurbani.khalsa.tech",
+    "keertan.now.sh",
+    "www.keertan.now.sh",
+    "kirtan.now.sh",
+    "www.kirtan.now.sh"
+  ],
   "name":"gurbani"
 }
