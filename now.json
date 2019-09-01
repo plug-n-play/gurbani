@@ -1,14 +1,11 @@
 {
   "version": 2,
   "alias": [
-    "www.kirtan.khalsa.tech"
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "status": 301,
-      "headers": { "Location": "https://kirtan.khalsa.tech/$1" }
-    }
+    "gurbani.khalsa.tech",
+    "keertan.khalsa.tech",
+    "gurbani.now.sh",
+    "keertan.now.sh",
+    "kirtan.now.sh"
   ],
   "name":"gurbani"
 }
