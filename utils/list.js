@@ -38,7 +38,7 @@ module.exports = [
     "id": 1575,
     "title": {
       "unicode": "ਸਤਿਗੁਰ ਬਚਨ ਤੁਮ੍ਹਾਰੇ",
-      "transliteration": "so satigur piaaraa merai naal hai"
+      "transliteration": "satigur bachan tum(h)aare"
     },
     "keertans": [
       {
@@ -48,5 +48,20 @@ module.exports = [
       }
     ],
     "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=1575"
+  },
+  {
+    "id": 1077,
+    "title": {
+      "unicode": "ਧੰਨੁ ਧੰਨੁ ਧੰਨੁ ਜਨੁ ਆਇਆ",
+      "transliteration": "dha(n)n dha(n)n dha(n)n jan aaiaa"
+    },
+    "keertans": [
+      {
+        "name": "Sant Sujan Singh Ji",
+        "url": "https://youtu.be/sgZQbMK5iRI?t=33028",
+        "duration": ""
+      }
+    ],
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=1077&q=Dhan%20Dhan%20Dhan%20jan%20aaya&type=4&source=all&highlight=13423"
   }
 ]
