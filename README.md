@@ -1,3 +1,3 @@
-# Gurbani App - https://gurbani.khalsa.tech/
+# Gurbani App - https://kirtan.khalsa.tech/
 
 Display Shabad with links to Audio/Video Shabads
