@@ -78,5 +78,20 @@ module.exports = [
       }
     ],
     "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=2988&q=tein%20saheb%20ki%20main&type=4&source=all&highlight=33762"
+  },
+  {
+    "id": 4648,
+    "title": {
+      "unicode": "ਬਾਬੀਹਾ ਅੰਮ੍ਰਿਤ ਵੇਲੈ ਬੋਲਿਆ ਤਾਂ ਦਰਿ ਸੁਣੀ ਪੁਕਾਰ ॥",
+      "transliteration": "baabeehaa a(n)mirat velai boliaa taa(n) dhar sunee pukaar ||"
+    },
+    "keertans": [
+      {
+        "name": "Bhai Nirmal Singh Ji Khalsa",
+        "url": "https://gaana.com/album/amrit-vele-boliya",
+        "duration": "05:21"
+      }
+    ],
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=4648&q=babiha%20amrit%20vele%20boleya&type=4&source=all&highlight=54949"
   }
 ]
