@@ -63,5 +63,20 @@ module.exports = [
       }
     ],
     "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=1077&q=Dhan%20Dhan%20Dhan%20jan%20aaya&type=4&source=all&highlight=13423"
+  },
+  {
+    "id": 2988,
+    "title": {
+      "unicode": "ਤੈ ਸਾਹਿਬ ਕੀ ਮੈ ਸਾਰ ਨ ਜਾਨੀ ॥",
+      "transliteration": "tai saahib kee mai saar na jaanee ||"
+    },
+    "keertans": [
+      {
+        "name": "Bhai Anand Prakash Singh Ji",
+        "url": "https://youtu.be/xsSDhe9N66M?t=222",
+        "duration": ""
+      }
+    ],
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=2988&q=tein%20saheb%20ki%20main&type=4&source=all&highlight=33762"
   }
 ]
