@@ -93,6 +93,67 @@ module.exports = [
       }
     ],
     "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=40232&q=raam%20kabeerai%20bhedh%20na%20bhaiee&type=4&source=all&highlight=201944"
+  },{
+    "id": 2370,
+    "title": {
+      "unicode": "ਪ੍ਰਭ ਡੋਰੀ ਹਾਥਿ ਤੁਮਾਰੇ ॥",
+      "transliteration": "prabh ddoree haath tumaare ||"
+    },
+    "keertans": [
+      {
+        "name": "Bhai Jaswant Singh - Live Sri Harmandir Sahib",
+        "url": "https://www.youtube.com/watch?v=8Pz8WglBe8E",
+        "duration": "12:35"
+      }
+    ],
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=2370&q=soi%20karawe%20jo%20tudh%20bhave&type=4&source=all&highlight=27146"
+  },
+  {
+    "id": 1524,
+    "title": {
+      "unicode": "ਮੋਹਿ ਗਰੀਬ ਕਉ ਲੇਹੁ ਰਲਾਇ ॥",
+      "transliteration": "moh gareeb kau leh ralai ||"
+    },
+    "keertans": [
+      {
+        "name": "Bibi Harleen Kaur Ji Khalsa",
+        "url": "https://www.youtube.com/watch?v=pVYbVUFsS5o",
+        "duration": "19:44"
+      }
+    ],
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=1524&q=mohe%20gareeb%20ko%20leho&type=4&source=all&highlight=17961"
+  },
+  {
+    "id": 40023,
+    "title": {
+      "unicode": "ਕਲਿ ਤਾਰਣਿ ਗੁਰੁ ਨਾਨਕੁ ਆਇਆ ॥੨੩॥",
+      "transliteration": "kal taaran gur naanak aaiaa ||23||"
+    },
+    "keertans": [
+      {
+        "name": "Dr. Alankar Singh",
+        "url": "https://www.youtube.com/watch?v=2PWkviN010g",
+        "duration": "18:15"
+      }
+    ],
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=40023&q=kal%20taaran%20guru%20nanak&type=4&source=all&highlight=200206"
+  },
+  {
+    "id": 40549,
+    "title": {
+      "unicode": "ਗੁਰ ਅਰਜਨ ਵਿਟਹੁ ਕੁਰਬਾਣੀ ॥੨੩॥",
+      "transliteration": "gur arajan viTahu kurabaanee ||23||"
+    },
+    "keertans": [
+      {
+        "name": "Bhai Maninder Singh Ji 10 June 2018",
+        "url": "https://www.youtube.com/watch?v=EzD1JAbmV_w",
+        "duration": "10:12"
+      }
+    ],
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=40549&q=guru%20arjun%20vitoh%20kurbani&type=4&source=all&highlight=204483"
   }
-  
 ]
+// https://www.sikhitothemax.org/shabad?id=40035&q=ek%20baba%20akal%20roop&type=4&source=all&highlight=200308
+// ਇਕੁ ਬਾਬਾ ਅਕਾਲ ਰੂਪੁ ਦੂਜਾ ਰਬਾਬੀ ਮਰਦਾਨਾ।
+// eik baabaa akaal roop dhoojaa rabaabee maradhaanaa|
