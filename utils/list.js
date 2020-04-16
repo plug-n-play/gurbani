@@ -161,7 +161,7 @@ module.exports = [
     },
     "keertans": [
       {
-        "name": "Bhai Maninder Singh Ji 10 June 2018",
+        "name": "Sant Sujan Singh Ji",
         "url": "https://youtu.be/LE7oCQl9lyI?t=3681",
         "duration": ""
       }
