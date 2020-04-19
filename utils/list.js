@@ -167,6 +167,21 @@ module.exports = [
       }
     ],
     "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=2979&q=mqbb&type=1&source=all&highlight=33650"
+  },
+  {
+    "id": 30993,
+    "title": {
+      "unicode": "ਕਰਿ ਬੰਦੇ ਤੂ ਬੰਦਗੀ ਜਿਚਰੁ ਘਟ ਮਹਿ ਸਾਹੁ",
+      "transliteration": "kar ba(n)dhe too ba(n)dhagee jichar ghaT meh saahu"
+    },
+    "keertans": [
+      {
+        "name": "Bhai Nirmal Singh Ji Khalsa",
+        "url": "https://www.youtube.com/watch?v=UTiAvWZxO2w",
+        "duration": "14:39"
+      }
+    ],
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=2772&q=kbqb&type=1&source=all&highlight=30993"
   }
 ]
 // https://www.sikhitothemax.org/shabad?id=40035&q=ek%20baba%20akal%20roop&type=4&source=all&highlight=200308
