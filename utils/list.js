@@ -182,6 +182,21 @@ module.exports = [
       }
     ],
     "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=2772&q=kbqb&type=1&source=all&highlight=30993"
+  },
+  {
+    "id": 24681,
+    "title": {
+      "unicode": "ਅਤਿ ਊਚਾ ਤਾ ਕਾ ਦਰਬਾਰਾ ॥",
+      "transliteration": "at uoochaa taa kaa dharabaaraa ||"
+    },
+    "keertans": [
+      {
+        "name": "Sant Sujan Singh Ji",
+        "url": "https://www.youtube.com/watch?v=UnauKqSTgbg",
+        "duration": "14:39"
+      }
+    ],
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=2159&q=Aaq&type=1&source=all&highlight=24681"
   }
 ]
 // https://www.sikhitothemax.org/shabad?id=40035&q=ek%20baba%20akal%20roop&type=4&source=all&highlight=200308
