@@ -47,7 +47,8 @@ module.exports = [
         "duration": "09:48"
       }
     ],
-    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=1575"
+    "completeShabadURL": "https://www.sikhitothemax.org/shabad?id=1575",
+    "todo": "convert into array and add https://www.youtube.com/watch?v=TN-LIULu3Fk&list=RDTN-LIULu3Fk&start_radio=1"
   },
   {
     "id": 1077,
